@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twenty CRM - Gestión de Ventas - Open Revolution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">
+                <a href="/website1/index.html">
+                    <img src="https://i.ibb.co/p1G5yHj/logo-open-revolution.png" alt="Open Revolution Logo" class="h-10 inline-block">
+                    Open Revolution
+                </a>
+            </div>
+            <nav>
+                <ul class="flex space-x-6 items-center">
+                    <li><a href="/website1/index.html" class="text-gray-600 hover:text-green-500">Inicio</a></li>
+                    <li class="relative dropdown">
+                        <a href="#" class="text-gray-600 hover:text-green-500">Productos</a>
+                        <ul class="absolute hidden dropdown-menu bg-white shadow-lg rounded-md mt-2 py-2 w-48 z-20">
+                            <li><a href="/website1/products/it.html" class="block px-4 py-2 text-gray-800 hover:bg-green-100">Para IT</a></li>
+                            <li><a href="/website1/products/sales.html" class="block px-4 py-2 text-gray-800 hover:bg-green-100">Para Ventas</a></li>
+                            <li><a href="/website1/products/customer-service.html" class="block px-4 py-2 text-gray-800 hover:bg-green-100">Para Servicio al Cliente</a></li>
+                            <li><a href="/website1/products/marketing.html" class="block px-4 py-2 text-gray-800 hover:bg-green-100">Para Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/website1/industry/index.html" class="text-gray-600 hover:text-green-500">Industria</a></li>
+                    <li><a href="/website1/about/index.html" class="text-gray-600 hover:text-green-500">Nosotros</a></li>
+                    <li><a href="/website1/contact/index.html" class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+        <!-- Product Hero -->
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            <div class="md:w-1/2">
+                <img src="https://i.ibb.co/KzZ0c2g/twenty-crm-hero.jpg" alt="Twenty CRM Dashboard" class="rounded-lg shadow-lg w-full">
+            </div>
+            <div class="md:w-1/2">
+                <h1 class="text-4xl font-bold mb-3">Twenty CRM</h1>
+                <p class="text-xl text-gray-600 mb-4">Un CRM Moderno para Gestionar tu Proceso de Ventas</p>
+                <p class="text-gray-700 mb-6">Twenty es un CRM de nueva generación, de código abierto, diseñado para que los equipos de ventas gestionen sus oportunidades y relaciones con clientes de una forma visual e intuitiva. Olvídate de los CRMs complejos y obsoletos.</p>
+                <a href="/website1/contact/index.html" class="bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition-colors">Organiza tus Ventas</a>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="mt-16">
+            <h2 class="text-3xl font-bold text-center mb-10">Características Principales</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-6 text-gray-700">
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Gestión de pipeline de ventas en vista Kanban</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Gestión de contactos y perfiles de cliente 360º</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Administración de cuentas y empresas</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Seguimiento de oportunidades y negociaciones</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Registro de actividades (llamadas, emails, reuniones)</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Gestor de tareas y recordatorios para el equipo</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Calificación de leads (Lead Scoring) personalizable</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Informes de ventas y analíticas de rendimiento</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Dashboards visuales y personalizables</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Integración con el correo electrónico</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Sincronización con calendarios (Google, Outlook)</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Código abierto: opción de auto-alojamiento (self-hosting)</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Potente API GraphQL para integraciones</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Creación de campos personalizados para adaptar el CRM</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Permisos y roles de usuario para control de acceso</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Comentarios y menciones para colaboración en equipo</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Catálogo de productos y servicios</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Soporte para múltiples monedas e idiomas</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Interfaz de usuario moderna, rápida y limpia</span></div>
+                <div class="flex items-start"><span class="text-green-500 mr-2">✔</span><span>Búsqueda global instantánea en todo el CRM</span></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Open Revolution. Todos los derechos reservados.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="hover:text-green-400">Facebook</a>
+                <a href="#" class="hover:text-green-400">Twitter</a>
+                <a href="#" class="hover:text-green-400">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

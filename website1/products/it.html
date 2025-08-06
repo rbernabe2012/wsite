@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluciones para IT - Open Revolution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">
+                <a href="/website1/index.html">
+                    <img src="https://i.ibb.co/p1G5yHj/logo-open-revolution.png" alt="Open Revolution Logo" class="h-10 inline-block">
+                    Open Revolution
+                </a>
+            </div>
+            <nav>
+                <ul class="flex space-x-6 items-center">
+                    <li><a href="/website1/index.html" class="text-gray-600 hover:text-green-500">Inicio</a></li>
+                    <li class="relative dropdown">
+                        <a href="#" class="text-gray-600 hover:text-green-500">Productos</a>
+                        <ul class="absolute hidden dropdown-menu bg-white shadow-lg rounded-md mt-2 py-2 w-48 z-20">
+                            <li><a href="/website1/products/it.html" class="block px-4 py-2 text-gray-800 hover:bg-green-100">Para IT</a></li>
+                            <li><a href="/website1/products/sales.html" class="block px-4 py-2 text-gray-800 hover:bg-green-100">Para Ventas</a></li>
+                            <li><a href="/website1/products/customer-service.html" class="block px-4 py-2 text-gray-800 hover:bg-green-100">Para Servicio al Cliente</a></li>
+                            <li><a href="/website1/products/marketing.html" class="block px-4 py-2 text-gray-800 hover:bg-green-100">Para Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/website1/industry/index.html" class="text-gray-600 hover:text-green-500">Industria</a></li>
+                    <li><a href="/website1/about/index.html" class="text-gray-600 hover:text-green-500">Nosotros</a></li>
+                    <li><a href="/website1/contact/index.html" class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+        <h1 class="text-4xl font-bold text-center mb-2">Soluciones para Departamentos de IT</h1>
+        <p class="text-lg text-center text-gray-600 mb-10">Potencia tu infraestructura tecnológica con nuestras herramientas de monitoreo, gestión de servicios y inventario.</p>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Zabbix Card -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img src="https://i.ibb.co/BqB5c0N/zabbix-card.jpg" alt="Zabbix Monitoring" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-2">Zabbix</h2>
+                    <p class="text-gray-700 mb-4">Monitoreo y alertas proactivas para toda tu infraestructura de TI, desde servidores hasta aplicaciones.</p>
+                    <a href="/website1/products/zabbix.html" class="inline-block bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">Ver detalles</a>
+                </div>
+            </div>
+
+            <!-- Otobo Card -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img src="https://i.ibb.co/yBNgG0P/otobo-card.jpg" alt="Otobo Helpdesk" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-2">Otobo</h2>
+                    <p class="text-gray-700 mb-4">Plataforma de mesa de ayuda flexible y potente para gestionar incidentes, peticiones y problemas de forma eficiente.</p>
+                    <a href="/website1/products/otobo.html" class="inline-block bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">Ver detalles</a>
+                </div>
+            </div>
+
+            <!-- GLPI Card -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img src="https://i.ibb.co/mX7YJc1/glpi-card.jpg" alt="GLPI Inventory" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-2">GLPI</h2>
+                    <p class="text-gray-700 mb-4">Solución integral para el inventario automático de activos de TI y gestión de servicios (ITSM).</p>
+                    <a href="/website1/products/glpi.html" class="inline-block bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">Ver detalles</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Open Revolution. Todos los derechos reservados.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="hover:text-green-400">Facebook</a>
+                <a href="#" class="hover:text-green-400">Twitter</a>
+                <a href="#" class="hover:text-green-400">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

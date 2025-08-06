@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrias - Open Revolution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">
+                <a href="/website1/index.html">
+                    <img src="https://i.ibb.co/p1G5yHj/logo-open-revolution.png" alt="Open Revolution Logo" class="h-10 inline-block">
+                    Open Revolution
+                </a>
+            </div>
+            <nav>
+                <ul class="flex space-x-6 items-center">
+                    <li><a href="/website1/index.html" class="text-gray-600 hover:text-green-500">Inicio</a></li>
+                    <li class="relative dropdown">
+                        <a href="#" class="text-gray-600 hover:text-green-500">Productos</a>
+                        <ul class="absolute hidden dropdown-menu bg-white shadow-lg rounded-md mt-2 py-2 w-48 z-20">
+                            <li><a href="/website1/products/it.html" class="block px-4 py-2 text-gray-800 hover:bg-green-100">Para IT</a></li>
+                            <li><a href="/website1/products/sales.html" class="block px-4 py-2 text-gray-800 hover:bg-green-100">Para Ventas</a></li>
+                            <li><a href="/website1/products/customer-service.html" class="block px-4 py-2 text-gray-800 hover:bg-green-100">Para Servicio al Cliente</a></li>
+                            <li><a href="/website1/products/marketing.html" class="block px-4 py-2 text-gray-800 hover:bg-green-100">Para Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/website1/industry/index.html" class="text-gray-600 hover:text-green-500">Industria</a></li>
+                    <li><a href="/website1/about/index.html" class="text-gray-600 hover:text-green-500">Nosotros</a></li>
+                    <li><a href="/website1/contact/index.html" class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold mb-4">Soluciones Adaptadas a tu Industria</h1>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">Entendemos que cada industria tiene desafíos únicos. Por eso, adaptamos nuestras soluciones de código abierto para satisfacer las necesidades específicas de tu vertical de negocio.</p>
+        </div>
+
+        <div class="mt-12 space-y-12">
+            <!-- Retail Section -->
+            <div class="p-8 bg-white rounded-lg shadow-md flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-2/3">
+                    <h2 class="text-3xl font-bold mb-3">Retail y Comercio Electrónico</h2>
+                    <p class="text-gray-700">Mejora la experiencia de compra y optimiza tus operaciones. Implementamos <strong>bots con IA</strong> para atención al cliente 24/7 en tu e-commerce, <strong>Zammad</strong> para gestionar devoluciones y reclamaciones vía WhatsApp, y <strong>GLPI</strong> para el inventario de TPVs y equipos en tiendas físicas.</p>
+                </div>
+                <div class="md:w-1/3">
+                    <img src="https://i.ibb.co/yW6YyM8/industry-retail.jpg" alt="Retail" class="rounded-lg shadow-sm w-full h-auto">
+                </div>
+            </div>
+
+            <!-- Finance Section -->
+            <div class="p-8 bg-white rounded-lg shadow-md flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/3">
+                    <img src="https://i.ibb.co/51C7Hh6/industry-finance.jpg" alt="Finance" class="rounded-lg shadow-sm w-full h-auto">
+                </div>
+                <div class="md:w-2/3">
+                    <h2 class="text-3xl font-bold mb-3">Finanzas y Seguros</h2>
+                    <p class="text-gray-700">Garantiza la continuidad del negocio y la seguridad de los datos. Usamos <strong>Zabbix</strong> para el monitoreo de infraestructura crítica y transaccional, <strong>Otobo</strong> como mesa de ayuda interna para empleados, y <strong>bots de voz</strong> para recordatorios de pago y verificación de identidad.</p>
+                </div>
+            </div>
+
+            <!-- Healthcare Section -->
+            <div class="p-8 bg-white rounded-lg shadow-md flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-2/3">
+                    <h2 class="text-3xl font-bold mb-3">Salud</h2>
+                    <p class="text-gray-700">Moderniza la gestión y la comunicación con los pacientes. Implementamos <strong>Zammad</strong> para gestionar citas y consultas por múltiples canales, <strong>GLPI</strong> para el inventario y mantenimiento de equipos médicos, y <strong>bots con IA</strong> para resolver dudas comunes sobre servicios de salud.</p>
+                </div>
+                <div class="md:w-1/3">
+                    <img src="https://i.ibb.co/B2v0x7V/industry-health.jpg" alt="Healthcare" class="rounded-lg shadow-sm w-full h-auto">
+                </div>
+            </div>
+
+            <!-- Telecom Section -->
+            <div class="p-8 bg-white rounded-lg shadow-md flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/3">
+                    <img src="https://i.ibb.co/gDF0j1j/industry-telecom.jpg" alt="Telecommunications" class="rounded-lg shadow-sm w-full h-auto">
+                </div>
+                <div class="md:w-2/3">
+                    <h2 class="text-3xl font-bold mb-3">Telecomunicaciones</h2>
+                    <p class="text-gray-700">Asegura la calidad del servicio y la satisfacción del cliente. Desplegamos <strong>Zabbix</strong> para el monitoreo exhaustivo de la red, <strong>soluciones de Contact Center</strong> para un soporte técnico eficiente, y <strong>bots de voz</strong> para notificar sobre mantenimientos programados o caídas del servicio.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Open Revolution. Todos los derechos reservados.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="hover:text-green-400">Facebook</a>
+                <a href="#" class="hover:text-green-400">Twitter</a>
+                <a href="#" class="hover:text-green-400">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
